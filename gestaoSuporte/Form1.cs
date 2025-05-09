@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using financeiro;
 
 namespace gestaoSuporte
 {
@@ -19,7 +20,7 @@ namespace gestaoSuporte
 
         private void btnEntrar(object sender, EventArgs e)
         {
-            MessageBox.Show("Bem-vindo ao Sistema!");
+            MessageBox.Show("Bem-vindo ao Sistema!"+matematica.Somar(1,2));
         }
     }
 }
